@@ -509,23 +509,6 @@ margin-bottom: 20px;
 }
 
 
-/*=========== TYPING ANIMATION ===========*/
-
-#typed {
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semi-bold);
-    font-family: sans-serif;
-}
-
-.inline {
-    display: inline;
-}
-
-.type {
-    color: var(--first-color);
-}
-
-
 /*=========== BUTTONS ===========*/
 
 .button {
