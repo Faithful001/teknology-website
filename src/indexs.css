@@ -689,9 +689,7 @@ p.home-title{
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
-  /* .nav__toggle {
-    display: none;
-  } */
+
   .nav__link {
     color: var(--second-color);
   }

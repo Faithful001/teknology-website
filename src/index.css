@@ -769,25 +769,6 @@ margin-bottom: 20px;
     bottom: 5rem;
 }
 
-
-/*==================== 	SCROLL BAR =====================*/
-
-::scrollbar {
-    width: .60rem;
-    background-color: var(--scroll-bar-color);
-    border-radius: .5rem;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-thumb-color);
-    border-radius: .5rem;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--text-color-light);
-}
-
-
 /*==================== 	MEDIA QUERIES =====================*/
 
 
@@ -1050,23 +1031,8 @@ margin-bottom: 20px;
     .home__social {
         transform: translateX(-6rem);
     }
-    .services__container {
-        grid-template-columns: repeat(3, 238px);
-    }
     .portfolio__content {
         column-gap: 5rem;
-    }
-    .swiper-portfolio-icon {
-        font-size: 3.5rem;
-    }
-    .swiper-button-prev {
-        left: -3.5rem;
-    }
-    .swiper-button-next {
-        right: -3.5rem;
-    }
-    .swiper-container>.swiper-pagination-bullets {
-        bottom: -4.5rem;
     }
     .contact__form {
         width: 460px;
