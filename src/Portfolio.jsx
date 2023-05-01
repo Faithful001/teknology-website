@@ -10,12 +10,12 @@ const Portfolio = () => {
                 <div className="swiper-wrapper">
                             {/* PORTFOLIO 1 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="" alt="Timups" className="portfolio__img"/>
+                        <img src="" alt="" className="portfolio__img"/>
 
                         <div className="portfolio__data">
-                            <h3 className="portfolio__title">Mintyplex Landing Page. </h3>
+                            <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
-                            <p className="portfolio__description">I worked with the team collaboratively to create a fully Responsive landing page for Mintyplex. Paying attention to details as provided by the UI/UX designers.</p>
+                            <p className="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
                             <a href="https://mintyplex.com" target="_blank" className="button button--flex button---small portfolio__button">
 								Demo
@@ -27,13 +27,12 @@ const Portfolio = () => {
 
                             {/* PORTFOLIO 2 */}
                 <div className="portfolio__content grid swiper-slide">
-                    <img src="" alt="Elisha David portfolio" className="portfolio__img"/>
+                    <img src="" alt="" className="portfolio__img"/>
 
                     <div className="portfolio__data">
-                        <h3 className="portfolio__title">TypAI Landing Page</h3>
+                        <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
-                        <p className="portfolio__description">A landing page I built for my Side <a href="https://typai.onrender.com">Project</a> at Buildspace.
-                        TypAI is an AI writing tool that helps content writers, bloggers, and even digital marketers to generate contents automatically.</p>
+                        <p className="portfolio__description"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
                         <a href="https://typai.vercel.app" className="button button--flex button---small portfolio__button">
                             Demo
@@ -45,12 +44,12 @@ const Portfolio = () => {
 
                             {/* PORTFOLIO 3 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="" alt="Elisha David portfolio" className="portfolio__img"/>
+                        <img src="" alt="" className="portfolio__img"/>
 
                         <div className="portfolio__data">
-                            <h3 className="portfolio__title">Danger is NEAR</h3>
+                            <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
-                            <p className="portfolio__description">Danger is near (play to earn game, gamefi) - user play as a fireknight who go to forest and kill monster. User can earn $DANGER token and score to compete with others user.</p>
+                            <p className="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
                             <a href="https://danger-is-near.vercel.app" className="button button--flex button---small portfolio__button">
 								Demo
@@ -61,18 +60,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                
-
-                        {/* Portfolio Arrows */}
-                <div className="swiper-button-next">
-                    <i className="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div className="swiper-button-prev">
-                    <i className="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                         {/* Swiper Pagination */}
-                <div className="swiper-pagination"></div>
             </div>
         </section>
 
