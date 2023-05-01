@@ -6,7 +6,7 @@ const Home = () => {
 <section className="home-home bd-grid" id="home">
                 <div className="home__data">
                     <div className="webuild-wedeliver">
-                        <p className="home-title">We build,<br/>We deliver</p><br/>
+                        <h1 className="home-title">We build,<br/>We deliver</h1>
                     </div>
                     <p className="home-title-quote">Entrust us with your business today</p>
 
@@ -14,11 +14,11 @@ const Home = () => {
                 </div>
 
                 <div className="home__social">
-                    <a href="https://linkedin.com/in/Elishaokon13" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
-                    <a href="https://twitter.com/Elishaokon13" className="home__social-icon"><i className='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/Elishaokon13" className="home__social-icon"><i className='bx bxl-github' ></i></a>
-                    <a href="https://wa.me/+2349032632415" className="home__social-icon"><i className='bx bxl-whatsapp' ></i></a>
-                    <a href="https://www.facebook.com/MelvinCypher" className="home__social-icon"><i className='bx bxl-facebook' ></i></a>
+                    <a href="" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
+                    <a href="" className="home__social-icon"><i className='bx bxl-twitter' ></i></a>
+                    <a href="" className="home__social-icon"><i className='bx bxl-github' ></i></a>
+                    <a href="" className="home__social-icon"><i className='bx bxl-whatsapp' ></i></a>
+                    <a href="" className="home__social-icon"><i className='bx bxl-facebook' ></i></a>
                 </div>
 
             </section>

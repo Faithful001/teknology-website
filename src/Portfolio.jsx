@@ -7,59 +7,53 @@ const Portfolio = () => {
             
 
             <div className="portfolio__container container swiper-container">
-                <div className="swiper-wrapper">
+                <div className="portfolio__container-container">
+
                             {/* PORTFOLIO 1 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="" alt="" className="portfolio__img"/>
-
+                    
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
                             <p className="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
-                            <a href="https://mintyplex.com" target="_blank" className="button button--flex button---small portfolio__button">
+                            <a href="#" target="_blank" className="button button--flex button---small portfolio__button">
 								Demo
 
-								<i className="uil uil-arrow-right button__icon"></i>
 							</a>
                         </div>
                     </div>
 
                             {/* PORTFOLIO 2 */}
                 <div className="portfolio__content grid swiper-slide">
-                    <img src="" alt="" className="portfolio__img"/>
 
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
                         <p className="portfolio__description"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
-                        <a href="https://typai.vercel.app" className="button button--flex button---small portfolio__button">
+                        <a href="#" className="button button--flex button---small portfolio__button">
                             Demo
 
-                            <i className="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
 
                             {/* PORTFOLIO 3 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="" alt="" className="portfolio__img"/>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Lorem ipsum dolor sit amet</h3>
 
                             <p className="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae saepe neque veniam error accusamus porro nostrum alias eligendi nemo tempore itaque praesentium adipisci sapiente ad, quos unde? Atque, eveniet.</p>
 
-                            <a href="https://danger-is-near.vercel.app" className="button button--flex button---small portfolio__button">
+                            <a href="#" className="button button--flex button---small portfolio__button">
 								Demo
 
-								<i className="uil uil-arrow-right button__icon"></i>
 							</a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
