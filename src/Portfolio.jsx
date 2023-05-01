@@ -10,7 +10,7 @@ const Portfolio = () => {
                 <div className="swiper-wrapper">
                             {/* PORTFOLIO 1 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Mintyplex.PNG" alt="Timups" className="portfolio__img"/>
+                        <img src="" alt="Timups" className="portfolio__img"/>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Mintyplex Landing Page. </h3>
@@ -27,7 +27,7 @@ const Portfolio = () => {
 
                             {/* PORTFOLIO 2 */}
                 <div className="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Typai.PNG" alt="Elisha David portfolio" className="portfolio__img"/>
+                    <img src="" alt="Elisha David portfolio" className="portfolio__img"/>
 
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">TypAI Landing Page</h3>
@@ -45,7 +45,7 @@ const Portfolio = () => {
 
                             {/* PORTFOLIO 3 */}
                     <div className="portfolio__content grid swiper-slide">
-                        <img src="assets/img/work6.png" alt="Elisha David portfolio" className="portfolio__img"/>
+                        <img src="" alt="Elisha David portfolio" className="portfolio__img"/>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Danger is NEAR</h3>
