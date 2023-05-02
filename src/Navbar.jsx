@@ -10,7 +10,7 @@ const Navbar = () => {
         setClick(false);
     }
     return ( 
-        <div className="navbar" style={{margin: '20px'}}>
+        <div className="navbar">
 
         <header className="l-header">
             <nav className="nav bd-grid">

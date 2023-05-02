@@ -244,6 +244,11 @@ ul {
 
 /*============== NAV-START =============*/
 
+.navbar{
+    margin: 20px;
+    
+}
+
 .nav {
     max-width: 968px;
     height: var(--header-height);
@@ -262,6 +267,7 @@ ul {
 }
 
 .nav__logo {
+    margin-bottom: 4px;
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -314,10 +320,19 @@ a.nav__logo{
 /* ==========HOME-START============= */
 
 .home {
+    background-color: var(--second-color);
+    height: 100vh;
+    width: 100%;
     position: relative;
     row-gap: 5rem;
     padding: 4rem 0 5rem;
+    
   }
+
+section.home-home{
+    margin: 40px;
+    margin-top: 60px;
+}
 
 .home__container {
     gap: 1rem;
@@ -329,11 +344,6 @@ a.nav__logo{
 
 .webuild-wedeliver{
     margin-bottom: 70px;
-}
-
-.home__title {
-    font-size: var(--big-font-size);
-    color: var(--first-color);
 }
 
 .home__subtitle {
@@ -348,18 +358,27 @@ a.nav__logo{
 }
 
 h1.home-title{
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 800;
-    line-height: 70px;
+    line-height: 100px;
     margin-bottom: 50px;
     color: var(--first-color);
+
 }
 
 p.home-title-quote{
+color: rgb(212, 212, 212);
 font-size: 20px; 
-margin-top: -80px; 
-margin-left: 20px; 
-margin-bottom: 20px;
+margin-top: -65px; 
+margin-left: 15px; 
+margin-bottom: 5px;
+}
+
+img.home-img{
+    height: 530px;
+    position: absolute;
+    top: 80px;
+    right: 250px;
 }
 
 .home__social {
@@ -384,7 +403,7 @@ color: var(--first-color);
 
 .about{
     margin: 20px;
-    margin-top: 5%;
+    margin-top: -90px;
 }
 
 .about__container {
@@ -483,8 +502,6 @@ color: var(--first-color);
 .portfolio__button:hover .button__icon {
     transform: translateX(.25rem);
 }
-
-
 
 .project {
     text-align: center;;
@@ -692,6 +709,120 @@ form{
 
 /* =====MEDIA-QUERY-START======== */
 
+@media screen and (max-width: 1250px) {
+    img.home-img{
+        height: 530px;
+        position: absolute;
+        top: 80px;
+        right: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+
+    img.home-img{
+        height: 480px;
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    
+    h1.home-title{
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    img.home-img{
+        height: 480px;
+        position: absolute;
+        top: 100px;
+        right: 70px;
+    }
+    
+    h1.home-title{
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    img.home-img{
+        height: 480px;
+        position: absolute;
+        top: 100px;
+        right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    img.home-img{
+        height: 430px;
+        position: absolute;
+        top: 100px;
+        right: 20px;
+    }
+
+    h1.home-title{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    img.home-img{
+        display: none;
+    }
+
+    h1.home-title{
+        font-size: 90px;
+        line-height: 90px;
+        margin: 0px;
+    }
+
+    
+
+    .nav__item .nav__link{
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 595px) {
+    h1.home-title{
+        font-size: 80px;
+        line-height: 80px;
+        margin: 0px;
+    }
+
+    p.home-title-quote{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    h1.home-title{
+        font-size: 70px;
+        line-height: 70px;
+        margin: 0px;
+    }
+
+    p.home-title-quote{
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
+
 @media screen and (min-width: 992px) {
     .bd-grid {
       margin-left: auto;
@@ -708,6 +839,7 @@ form{
   @media screen and (min-width: 768px) {
     body {
       margin: 0;
+
     }
     .section {
       padding-top: 4rem;
@@ -720,9 +852,7 @@ form{
       width: 80px;
       top: 3rem;
     }
-    .nav {
-      height: calc(var(--header-height) + 1.5rem);
-    }
+
     .nav__list {
       display: flex;
       padding-top: 0;
@@ -731,10 +861,12 @@ form{
       margin-left: var(--mb-6);
       margin-bottom: 0;
     }
+
   
     .nav__link {
       color: var(--second-color);
     }
+    
     .home {
       padding: 8rem 0 2rem;
     }
@@ -748,16 +880,7 @@ form{
     .about__img img {
       width: 300px;
     }
-    .skills__container {
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 2rem;
-      align-items: center;
-      text-align: initial;
-    }
-    .work__container {
-      grid-template-columns: repeat(3, 1fr);
-      column-gap: 2rem;
-    }
+
 }
 
 
@@ -826,16 +949,7 @@ form{
       align-items: center;
       text-align: initial;
     }
-    .skills__container {
-      grid-template-columns: .7fr;
-      justify-content: center;
-      column-gap: 1rem;
-    }
-    .work__container {
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 2rem;
-      padding-top: 2rem;
-    }
+
     .contact__form {
       width: 360px;
       padding-top: 2rem;
