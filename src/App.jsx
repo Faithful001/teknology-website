@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Navbar from './Navbar';
 import Portfolio from './Portfolio';
+import Services from './Services';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className="content">
       <Home/>
       <About/>
+      <Services/>
       <Portfolio/>
       <Contact/>
       <Footer/>

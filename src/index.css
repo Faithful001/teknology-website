@@ -1,6 +1,6 @@
 /*--====================== GOOGLE FONTS ======================-->*/
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 :root {
     --header-height: 4.3rem;
     /*================= COLORS =================*/
@@ -118,10 +118,11 @@ html {
 
 body {
     margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
     font-size: var(--normal-font-size);
+    font-family: 'Poppins', sans-serif;
     background-color: var(--body-color);
     color: var(--text-color);
+    overflow-x: hidden;
   
 }
 
@@ -321,7 +322,7 @@ a.nav__logo{
 
 .home {
     background-color: var(--second-color);
-    height: 700px;
+    height: 720px;
     width: 100%;
     padding: 4rem 0 5rem;
     
@@ -437,11 +438,50 @@ img.home-img{
 
 /* ===========ABOUT-END============ */
 
+/* ========SERVICES-START============= */
+.services{
+    margin: 40px;
+}
+
+.services-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.services-card{
+    height: 100px;
+    width: 300px;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.services-card:hover{
+    background-color: var(--first-color);
+    transition: 0.4s;
+}
+
+p.services-card-text{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========SERVICES-END============= */
 
 /*==================== PORTFOLIO =====================*/
 
 .portfolio{
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .portfolio__container {
@@ -487,7 +527,6 @@ img.home-img{
 
 section.project{
     margin-top: 100px;
-    margin-left: -40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -540,7 +579,7 @@ section.project{
 
 /*==================== CONTACT =====================*/
 .contact{
-    margin-left: 20px;
+    margin: 20px;
 }
 
 section.contact{
@@ -764,6 +803,16 @@ h3.contact__title{
 }
 
 @media screen and (max-width: 768px) {
+    .services-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .services-wrapper2{
+
+    }
+
     img.home-img{
         display: none;
     }
@@ -923,7 +972,7 @@ h3.contact__title{
         background-color: black;
         opacity: 0.9;
         position: fixed;
-        top: 49px;
+        top: 70px;
         margin-right: -1000px;
         padding: 2rem 1.5rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);

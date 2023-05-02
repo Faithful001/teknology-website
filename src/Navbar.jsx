@@ -28,6 +28,7 @@ const Navbar = () => {
                     <ul className="nav__list">
                         <li className="nav__item"><a href="#" className="nav__link" onClick={closeMenu}>Home</a></li>
                         <li className="nav__item"><a href="#about" className="nav__link" onClick={closeMenu}>About</a></li>
+                        <li className="nav__item"><a href="#services" className="nav__link" onClick={closeMenu}>Services</a></li>
                         <li className="nav__item"><a href="#portfolio" className="nav__link" onClick={closeMenu}>Portfolio</a></li>
                         <li className="nav__item"><a href="#contact" className="nav__link" onClick={closeMenu}>Contact</a></li>
                     </ul>
