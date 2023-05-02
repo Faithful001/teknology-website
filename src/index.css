@@ -369,7 +369,7 @@ p.home-title-quote{
 color: rgb(212, 212, 212);
 font-size: 20px; 
 margin-top: -65px; 
-margin-left: 15px; 
+margin-left: 12px; 
 margin-bottom: 5px;
 }
 
@@ -491,8 +491,8 @@ p.services-card-text{
     align-items: center;
     text-align: center;
     padding: 2rem;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .15);
-    margin-right: 60px;
+    /* box-shadow: 1px 1px 4px rgba(0, 0, 0, .15); */
+
 }
 
 .portfolio__data a{
@@ -503,13 +503,6 @@ p.services-card-text{
     margin-bottom: var(--mb-2);
   }
 
-.portfolio__container:hover {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, .15);
-}
-
-.portfolio__content {
-    padding: 0 1.5rem;
-}
 
 
 .portfolio__title {
@@ -533,7 +526,7 @@ section.project{
     align-items: center;
     text-align: center;
     position: relative;
-    left: 30px;
+    left: 0px;
     background-color: var(--first-color);
     padding: 20px;
     width: 100%;
@@ -805,12 +798,15 @@ h3.contact__title{
 @media screen and (max-width: 768px) {
     .services-wrapper{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
 
     }
 
-    .services-wrapper2{
-
+    .services-card{
+        height: 90px;
+        width: 220px;
     }
 
     img.home-img{
