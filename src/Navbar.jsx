@@ -14,9 +14,9 @@ const Navbar = () => {
 
         <header className="l-header">
             <nav className="nav bd-grid">
-                <div>
+                
                     <a href="#" className="nav__logo">Teknology</a>
-                </div>
+                
                 <div className="nav__toggle" onClick={()=>toggleMenu()}>
                 <div className="burger"></div>
                 <div className="burger"></div>
@@ -24,6 +24,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={click ? 'nav__menu active' : 'nav__menu'}>
+                
                     <ul className="nav__list">
                         <li className="nav__item"><a href="#" className="nav__link" onClick={closeMenu}>Home</a></li>
                         <li className="nav__item"><a href="#about" className="nav__link" onClick={closeMenu}>About</a></li>

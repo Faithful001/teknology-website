@@ -7,7 +7,6 @@ const Portfolio = () => {
             
 
             <div className="portfolio__container container swiper-container">
-                <div className="portfolio__container-container">
 
                             {/* PORTFOLIO 1 */}
                     <div className="portfolio__content grid swiper-slide">
@@ -53,14 +52,13 @@ const Portfolio = () => {
 							</a>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
 
 
                         {/* PROJECTS IN MIND */}
         <section className="project section">
-
+      
                     <div className="project__data">
                         <h2 className="project__title">Got A New Project?</h2>
                         <p className="project__description">Congratulations. You're getting a 30% discount for hiring us through our portfolio.<br/>Want to get started?</p>
@@ -68,7 +66,8 @@ const Portfolio = () => {
                         <button className="project-button-button"><a href="https://wa.me/+2349083738709" className="project-button ">
                             Contact Us
                         </a></button>
-                    </div><br/>
+                    </div>
+               
         </section>
 
         </div>

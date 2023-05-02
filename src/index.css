@@ -2,7 +2,7 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
 :root {
-    --header-height: 3rem;
+    --header-height: 4.3rem;
     /*================= COLORS =================*/
     /*Change colors after project*/
     --hue-color: 250;
@@ -267,14 +267,14 @@ ul {
 }
 
 .nav__logo {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
 a.nav__logo{
     position: absolute;
-    left: 20px;
+    left: 30px;
     bottom: 10px;
 }
 
@@ -321,10 +321,8 @@ a.nav__logo{
 
 .home {
     background-color: var(--second-color);
-    height: 100vh;
+    height: 700px;
     width: 100%;
-    position: relative;
-    row-gap: 5rem;
     padding: 4rem 0 5rem;
     
   }
@@ -377,25 +375,10 @@ margin-bottom: 5px;
 img.home-img{
     height: 530px;
     position: absolute;
-    top: 80px;
+    top: 100px;
     right: 250px;
 }
 
-.home__social {
-    display: flex;
-    flex-direction: column;
-  }
-  
-.home__social-icon {
-width: max-content;
-margin-bottom: var(--mb-2);
-font-size: 1.5rem;
-color: var(--second-color);
-}
-
-.home__social-icon:hover {
-color: var(--first-color);
-}
 
 /* =========HOME-END============= */
 
@@ -418,11 +401,16 @@ color: var(--first-color);
 
 .about__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px; 
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: var(--mb-2-5);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about__info-title, .about__info-name{
+    display: flex;
+    justify-content: space-around;
 }
 
 .about__info-title {
@@ -462,18 +450,17 @@ color: var(--first-color);
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    padding: 2rem 1rem;
+    padding: 2rem;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .15);
+    margin-right: 60px;
+}
+
+.portfolio__data a{
+    margin-bottom: 20px;
 }
 
 .portfolio__subtitle {
     margin-bottom: var(--mb-2);
-  }
-
-.portfolio section .portfolio__container{
-    display: grid;
-    place-items: center;
   }
 
 .portfolio__container:hover {
@@ -484,11 +471,6 @@ color: var(--first-color);
     padding: 0 1.5rem;
 }
 
-.portfolio__img {
-    width: 265px;
-    border-radius: .5rem;
-    justify-self: center;
-}
 
 .portfolio__title {
     font-size: var(--h3-font-size);
@@ -499,25 +481,25 @@ color: var(--first-color);
     margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
-    transform: translateX(.25rem);
-}
-
 .project {
     text-align: center;;
   }
-  
-  .project__data{
+
+section.project{
+    margin-top: 100px;
+    margin-left: -40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 30px;
     background-color: var(--first-color);
     padding: 20px;
-    padding-left: 20px;
     width: 100%;
     height: 15rem;
-  }
+}
   
   .project__data .button-button{
     background-color: white;
@@ -586,6 +568,7 @@ section.contact{
     display: flex;
     line-height: 10px;
     padding-bottom: 20px;
+
   }
 
 .contact__title {
@@ -609,8 +592,9 @@ section.contact{
     color: var(--text-color);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    font-weight: var(--font-semi);
-    border: none;
+    font-weight: 300;
+    border: 2px solid rgb(153, 153, 153) ;
+    border-radius: 10px;
     outline: none;
     padding: 1rem;
     margin-bottom: var(--mb-4);
@@ -621,6 +605,7 @@ form{
     flex-direction: column;  
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
 }
 
 .contact__button {
@@ -630,7 +615,11 @@ form{
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-  }
+}
+
+h3.contact__title{
+    font-size: 17.5px;
+}
 
 /* =========CONTACT-END=========== */
 
@@ -785,8 +774,6 @@ form{
         margin: 0px;
     }
 
-    
-
     .nav__item .nav__link{
         margin: 20px;
     }
@@ -819,7 +806,33 @@ form{
     
 }
 
+@media screen and (max-width: 450px) {
+    .about__info {
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+}
 
+
+@media screen and (max-width: 320px) {
+    .contact__head{
+        margin-left: -20px;
+
+    }
+
+    .contact__email h3, .contact__location h3{
+        font-size: 15px;
+    }
+    
+    .contact__email span, .contact__location span{
+        font-size: 12px;
+    }
+
+
+    .contact__email     .contact__subtitle{
+        max-width: 5px;
+    }
+}
 
 
 
@@ -884,7 +897,7 @@ form{
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     section.contact{
         display: flex;
@@ -1072,11 +1085,6 @@ form{
     }
     .section__subtitle {
         margin-bottom: 4rem;
-    }
-
-    .nav {
-        height: calc(var(--header-height) + 1.5rem);
-        column-gap: 1rem;
     }
 
     .nav__menu {
