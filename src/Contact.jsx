@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Zoom from 'react-reveal/Zoom';
+
 
 const Contact = () => {
     const form = useRef();
@@ -30,6 +32,7 @@ const Contact = () => {
             <h2 className="section-title">Contact Us</h2>
           
             <div className="contact__container container bd-grid">
+            <Zoom>
                 <div className="contact__head">
                     
                     <div className="contact__email">
@@ -43,13 +46,14 @@ const Contact = () => {
                     
                     </div>
                 </div>
-                
+          
                     <form ref={form} className="contact__form" id="form" onSubmit={sendEmail} >
                         <input name="username" type="text" id="fullName" placeholder="Name" className="contact__input"/>
                         <input name="useremail" type="email" id="email_id" placeholder="Email" className="contact__input"/>
                         <textarea name="message" id="message" cols="0" rows="10" className="contact__input"placeholder="Enter your message"/>
                         <input type="submit" value="Send" className="contact__button button"/>
                     </form>
+                </Zoom>
                 </div>
             </section>
 

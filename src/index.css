@@ -658,11 +658,10 @@ h3.contact__title{
 
 /*==================== FOOTER =====================*/
 
-.footer {
+.footer-background {
     background-color: var(--second-color);
     color: #fff;
     text-align: center;
-    font-weight: var(--font-semi);
     padding: 2rem;
   }
 

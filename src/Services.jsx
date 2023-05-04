@@ -1,3 +1,6 @@
+import Fade from 'react-reveal/Fade';
+
+
 const Services = () => {
 
     const ourServices = {
@@ -14,9 +17,10 @@ const Services = () => {
             <section className="services-services" id="services">
             <h2 className="section-title">Services</h2>
 
+            <Fade top>    
             <p className="section__text">Together with our group of developers and designers who are intellectually prowessed in their various fields, we offer the following services:</p>
+           
             <div className="services-wrapper">
-                
                     <div className="services-wrapper1">
                         <div className="services-card">
                             <img src="" alt="" className="services-card-icon" />
@@ -59,7 +63,7 @@ const Services = () => {
 
                 </div>
             </div>
-
+            </Fade>
 
             </section>
         </div>

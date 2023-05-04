@@ -1,3 +1,6 @@
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
+
 const Portfolio = () => {
     return ( 
         <div className="portfolio" >
@@ -5,7 +8,7 @@ const Portfolio = () => {
 <section className="portfolio section" id="portfolio">
             <h2 className="section-title">Portfolio</h2>
             
-
+            <Zoom>
             <div className="portfolio__container container swiper-container">
 
                             {/* PORTFOLIO 1 */}
@@ -53,12 +56,15 @@ const Portfolio = () => {
                         </div>
                     </div>
             </div>
+            </Zoom>
         </section>
 
 
                         {/* PROJECTS IN MIND */}
+        <Bounce right>
         <section className="project section">
       
+                
                     <div className="project__data">
                         <h2 className="project__title">Got A New Project?</h2>
                         <p className="project__description">Congratulations. You're getting a 30% discount for hiring us through our portfolio.<br/>Want to get started?</p>
@@ -67,8 +73,8 @@ const Portfolio = () => {
                             Contact Us
                         </a></button>
                     </div>
-               
         </section>
+        </Bounce>
 
         </div>
      );
